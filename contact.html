@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+    <div class="container">
+        <!-- navbar -->
+        <div class="navbar">
+            <div class="logo">
+                <img src="./moreishlogo.png" alt="moreishlogo">
+            </div>
+
+            <div class="links">
+                <a href="./index.html">HOME</a>
+                <a href="./history.html" target="_blank">HISTORY</a>
+                <a href="">PRODUCTS</a>
+                <!-- <a href="">RETAIL</a>
+                <a href="">MISSION</a> -->
+                <a href="./contact.html">CONTACT US</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Get in touch</h2>
+                <hr>
+                <input type="hidden" name="access_key" value="1547c946-6e45-47c7-b09e-153ac6102410">
+                <input type="text" placeholder="Your Name" name="name" class="contact-inputs" required> <br><br>
+                <input type="email" placeholder="Your Email" name="email" class="contact-inputs" required> <br><br>
+                <textarea name="message" class="contact-inputs"
+                 placeholder="Your Message" required></textarea>
+                 <br><br>
+                <button type="submit">Submit <img src="./assets/arrow_icon.png" alt=""></button>
+            </div>
+        </form>
+        <div class="contact-right">
+            <img src="./assets/right_img.png" alt="">
+        </div>
+    </div>
+</body>
+</html>

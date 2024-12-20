@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    width: 100vw;
+    background-color: rgb(235, 248, 248);
+    height: 100vh;
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30vh;
+    width: 100%;
+    background-color: #ffff;
+    padding-top: 30px;
+    position: sticky;
+    top: 0;
+    border-bottom: 10px solid #ed1c24;
+}
+
+
+.logo img{
+    height: 86px;
+    width: 220px;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.links{
+    display: flex;
+    position: relative;
+}
+
+.links a{
+    margin: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    position: relative;
+    top: 20px;
+    transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: linear;
+}
+
+.links a:hover{
+    text-decoration:3px solid rgb(3, 3, 3) underline;
+    transform: translateY(2px);
+    color: rgb(218, 16, 16);
+}
+
+.history{
+    background-color: rgba(211, 185, 14, 0.877);
+    width: 50vw;
+    height: 30vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: absolute;
+    top: 9rem;
+    left: 2rem;
+}
+
+.history .box{
+    background-color: pink;
+    width: 49vw;
+    height: 29vh;
+    margin-top: .2rem;
+    margin: 5px;
+}
+
+.history .box p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.table{
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    padding: 20px;
+    margin-left: 12.5rem;
+    /* bottom: 16rem;
+    right: 2rem; */
+    /* width: 40vw; */
+    /* text-align: center; */
+    
+}
+
+table tr{
+    height: 40px;
+}
+
+.date{
+    color: red;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.des{
+    background-color: rgb(246, 241, 242);
+    padding: .5rem;
+    margin-left: 1rem;
+}
+
+.a{
+    background-color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+}
+
+.b{
+    background-color: rgb(244, 251, 42);
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    width: 100%;
+    background-color: pink;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30vh;
+    width: 100%;
+    background-color: #ffff;
+    padding-top: 30px;
+    position: sticky;
+    top: 0;
+    border-bottom: 10px solid #ed1c24;
+}
+
+
+.logo img{
+    height: 86px;
+    width: 220px;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.links{
+    display: flex;
+    position: relative;
+}
+
+.links a{
+    margin: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    position: relative;
+    top: 20px;
+    transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: linear;
+}
+
+.links a:hover{
+    text-decoration:3px solid rgb(3, 3, 3) underline;
+    transform: translateY(2px);
+    color: rgb(218, 16, 16);
+}
+
+.slide{
+    margin: auto;
+    max-width: 100%;
+}
+
+img{
+    height: 80vh;
+    width: 100vw;
+
+}
+
+.slides{
+    display: none;
+}
+
+
+
+.number{
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+h1{
+    color: #ee1d25;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+#desc{
+    display: flex;
+    margin: 0 0 10px;
+    margin-left: 10px;
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0 60px;
+}
+
+#desc1{
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #3d3c3c;
+    padding: 0 60px;
+}
+
+.loaf{
+   padding: 0 60px;
+    
+}
+
+.loaf img{
+    width: 89vw;
+    height: 50vh;
+    padding: 40px;
+}
+
+
+.des{
+    position: relative;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.des h3{
+    color: #c10c0c;
+    font-size: 2.5rem;
+    padding: 60px;
+    position: absolute;
+    bottom: 2.5rem;
+    text-align: center;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px;
+    position: relative;
+}
+
+.items .a{
+     height: 100vh;
+     /* background-color: black; */
+     width: 40vw;
+}
+
+.items .a img{
+    height: 80vh;
+    width: 35vw;
+}
+
+.items .a .name1{
+    position: absolute;
+    top: 26rem;
+    padding: 20px;
+    left: 10rem;
+}
+
+.items .a .name1 p{
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
